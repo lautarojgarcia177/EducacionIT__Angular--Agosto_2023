@@ -1,2 +1,3 @@
-<app-saludo></app-saludo>
-<app-boton-change-color></app-boton-change-color>
+<app-saludo *ngIf="mostrarSaludo"></app-saludo>
+<button (click)="toggleMostrarSaludo()">{{buttonMessage}}</button>
+<!-- <app-boton-change-color *ngIf="!true" [class.clase1]="usarLaClaseUno"></app-boton-change-color> -->

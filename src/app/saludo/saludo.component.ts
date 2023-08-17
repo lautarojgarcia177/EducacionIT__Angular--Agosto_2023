@@ -6,16 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./saludo.component.css'],
 })
 export class SaludoComponent {
-  noRetornar(
-    nombre: string,
-    edad: number
-  ): {
-    nombre: string;
-    edad: number;
-  } {
-    return {
-      nombre,
-      edad,
-    };
+  constructor() {
   }
+  urlImg =
+    'https://th.bing.com/th/id/OIP.m1FcoUO3NqgOuZiiCwKr0QHaDr?pid=ImgDet&rs=1';
+  claseDeBorde = "borde-negro";
 }

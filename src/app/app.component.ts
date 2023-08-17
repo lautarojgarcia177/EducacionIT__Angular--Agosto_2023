@@ -6,14 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  calcularSuma(numeros: number[]): number {
-    let suma = 0;
-    for (let numero of numeros) {
-      suma += numero;
-    }
-    return suma;
-  }
+  mostrarSaludo = true;
+  buttonMessage = 'Ocultar saludo';
   constructor() {
-    console.log(this.calcularSuma([1, 2, 3, 4, 5, 6]));
+    
+  }
+  toggleMostrarSaludo() {
+    if (this.buttonMessage === 'Ocultar saludo') {
+      this.buttonMessage = 'Mostrar saludo';
+      this.mostrarSaludo = false;
+    } else {
+      this.buttonMessage = 'Ocultar saludo';
+      this.mostrarSaludo = true;
+    }
   }
 }
