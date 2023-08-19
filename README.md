@@ -1,27 +1,11 @@
-# Changecolorbutton
+# Ejercicio de Routeo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
+En este ejercicio, creamos 4 componentes:
+- Componente1: Para mostrar en la ruta de componente 1
+- Componente2: Para moestrar en la ruta de componente 2
+- Navbar: Para navegar por el sitio
+- NotFound: Para mostrar cuando una ruta no existe
 
-## Development server
+Tenemos routeo implementado para navegar por el sitio web, ver las rutas en app-routing.module
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+En app.component.html se encuentra la entrada al <router-outlet> que permite que en ese lugar se renderizen las rutas. Ademas, arriba de el tiene el Navbar que se va a mostrar todo el tiempo
