@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./saludo.component.css'],
 })
 export class SaludoComponent {
-  constructor() {
-  }
+  constructor() {}
   urlImg =
     'https://th.bing.com/th/id/OIP.m1FcoUO3NqgOuZiiCwKr0QHaDr?pid=ImgDet&rs=1';
-  claseDeBorde = "borde-negro";
+  claseDeBorde = 'borde-negro';
+  listaDeColores = ['violeta', 'verde', 'amarillo', 'negro', 'rojo', 'azul'];
 }
