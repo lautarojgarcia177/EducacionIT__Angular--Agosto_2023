@@ -6,9 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  headerColor = 'black'; //Initial color
-  changeColor() {
-    const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
-    this.headerColor = randomColor;
-  }
+
 }

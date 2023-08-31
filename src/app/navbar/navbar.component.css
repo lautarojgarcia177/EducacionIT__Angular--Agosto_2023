@@ -1,0 +1,22 @@
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: rgba(255, 0, 0, 0.536);
+  color: white;
+}
+
+.fa-cart-shopping {
+  margin-right: 3rem;
+}
+
+#cantidad-items-carrito {
+  display: block;
+  position: relative;
+  left: 14px;
+  top: -30px;
+  background-color: red;
+  border-radius: 50%;
+  width: 15px;
+  padding-left: 7px;
+}
